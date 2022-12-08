@@ -1,4 +1,3 @@
-import "./App.css";
 import Card from "./Component/Card";
 
 import { data } from "./data";
