@@ -5,7 +5,7 @@ import { data } from "./data";
 function App() {
   return (
     <main className="bg-slate-800">
-      <section className="container mx-auto">
+      <section className="container mx-auto pb-5">
         <div className="py-8">
           <h1 className="flex items-center justify-start gap-4">
             <span className="text-purple-400">
@@ -29,9 +29,9 @@ function App() {
             </span>
           </h1>
         </div>
-        <div className="flex">
-          {data.map((e, i) => {
-            return <Card />;
+        <div className="flex gap-4">
+          {data.map((e) => {
+            return <Card data={e} />;
           })}
         </div>
       </section>
