@@ -7,7 +7,7 @@ function App() {
     <main className="bg-slate-800">
       <section className="container mx-auto pb-5">
         <div className="py-8">
-          <h1 className="flex items-center justify-start gap-4">
+          <h1 className="flex items-center justify-start gap-4 font-tomorrow">
             <span className="text-purple-400">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

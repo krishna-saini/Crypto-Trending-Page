@@ -18,13 +18,13 @@ function NamePrice(props: NamePriceProps) {
         {name}({ticker})
       </p>
       <p className="font-tomorrow flex h-10 w-60 items-center justify-center rounded-[17px] border bg-[#14172B] pl-16 font-semibold">
-        <span className="text-xl text-[#ECF0FF]">${price}</span>
+        <span className="text-xl text-indigo-50">${price}</span>
         <span
           className={`${
-            changePercentage > 0 ? "text-[#00FFA3]" : "text-[#FF4D4D]"
+            changePercentage > 0 ? "text-emerald-300" : "text-red-500"
           } pl-6 text-xs`}
         >
-          {changePercentage}%
+          {changePercentage} %
         </span>
       </p>
       <p className="font-tomorrow text-xs font-semibold text-[#5a5f7d] opacity-90">
