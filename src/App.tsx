@@ -31,7 +31,7 @@ function App() {
         </div>
         <div className="flex">
           {data.map((e, i) => {
-            return <Card />;
+            return <Card key={i} />;
           })}
         </div>
       </section>
