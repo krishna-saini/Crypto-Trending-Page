@@ -37,7 +37,7 @@ function App() {
             </span>
           </h1>
         </div>
-        <div className="flex gap-4">
+        <div className="mt-10 flex flex-wrap gap-4">
           {data.map((e) => {
             return <Card data={e} />;
           })}
