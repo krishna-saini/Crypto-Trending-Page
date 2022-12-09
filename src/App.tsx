@@ -4,11 +4,11 @@ import { data } from "./data";
 
 function App() {
   return (
-    <main className="bg-slate-800">
+    <main className="bg-space-500">
       <section className="container mx-auto pb-5">
         <div className="py-8">
           <h1 className="flex items-center justify-start gap-4 font-tomorrow">
-            <span className="text-purple-400">
+            <span className="text-purple-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -24,7 +24,7 @@ function App() {
                 />
               </svg>
             </span>
-            <span className="text-mono text-lg font-bold text-slate-100">
+            <span className="text-mono text-lg font-semibold text-space-100">
               Trending coins
             </span>
           </h1>
